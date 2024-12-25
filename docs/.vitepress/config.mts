@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "defted-press",
   description: "info about defted",
+  base: '/defted-press/', // リポジトリ名に置き換えてください
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
